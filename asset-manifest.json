@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mothersday2022/static/css/main.3cdb5aa5.css",
+    "main.css": "/mothersday2022/static/css/main.a914af71.css",
     "main.js": "/mothersday2022/static/js/main.2777d946.js",
     "static/media/exploded.png": "/mothersday2022/static/media/exploded.684ad7b2d7d5e28b0366.png",
     "static/media/gift.png": "/mothersday2022/static/media/gift.35175d8892ca2452c9fe.png",
     "index.html": "/mothersday2022/index.html",
-    "main.3cdb5aa5.css.map": "/mothersday2022/static/css/main.3cdb5aa5.css.map",
+    "main.a914af71.css.map": "/mothersday2022/static/css/main.a914af71.css.map",
     "main.2777d946.js.map": "/mothersday2022/static/js/main.2777d946.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cdb5aa5.css",
+    "static/css/main.a914af71.css",
     "static/js/main.2777d946.js"
   ]
 }
