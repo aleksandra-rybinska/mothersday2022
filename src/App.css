@@ -1,0 +1,71 @@
+body {
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #051937, #091e3d, #0e2343, #13294a, #172e50, #153b60, #0e496f, #00587e, #007395, #008ea7, #00aab3, #07c5b9);
+}
+@keyframes shakeThatBox {
+    0% {transform: rotate(-20deg);}
+    5% {transform: rotate(-20deg);}
+    10% {transform: rotate(0deg);}
+    15% {transform: rotate(20deg);}
+    20% {transform: rotate(0deg);}
+    25% {transform: rotate(-20deg);}
+    30% {transform: rotate(0deg);}
+    35% {transform: rotate(20deg);}
+    40% {transform: rotate(0deg);}
+}
+@keyframes showWord {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.confettibox{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gift {
+    width: 50vw;
+    height: auto;
+    animation: shakeThatBox 5s infinite;
+    
+}
+.exploded {
+    width: 70vw;
+    height: auto;
+}
+
+.first {
+    color: #ff8a80;
+    font-weight: 800!important; 
+    opacity: 0;
+    animation: showWord 1s forwards;
+}
+
+.second {
+    color: #ff80ab;
+    font-weight: 800!important; 
+    opacity: 0;
+    animation: showWord 1s 1s forwards;
+}
+
+.third {
+    color: #ea80fc;
+    font-weight: 800!important; 
+    opacity: 0;
+    animation: showWord 1s 2s forwards;
+}
+
+.fourth {
+    color: #ffcdd2;
+    font-weight: 800!important; 
+    opacity: 0;
+    animation: showWord 1s 3s forwards;
+}
