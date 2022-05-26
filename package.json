@@ -1,6 +1,6 @@
 {
-  "homepage": "https://aleksandra-rybinska.github.io/boring-owl-recruitment-task",
-  "name": "boring-owl",
+  "homepage": "https://aleksandra-rybinska.github.io/mothersday2022",
+  "name": "mothersday2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
