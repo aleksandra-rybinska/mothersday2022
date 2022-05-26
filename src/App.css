@@ -32,14 +32,14 @@ body {
     align-items: center;
 }
 .gift {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 30vh;
     animation: shakeThatBox 5s infinite;
     
 }
 .exploded {
-    width: 70vw;
-    height: auto;
+    width: auto;
+    height: 50vh;
 }
 
 .first {
